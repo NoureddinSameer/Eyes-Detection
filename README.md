@@ -46,9 +46,9 @@ The code uses **OpenCV** (Open Source Computer Vision Library) to detect eyes, a
    - Displays messages and bounding boxes for easy monitoring.
 
 ### Customization
-Alarm Sound:
-Modify the sound_alarm function to use a custom alarm or a different sound frequency/duration.
+1. Alarm Sound:
+   - Modify the `sound_alarm` function to use a custom alarm or a different sound frequency/duration.
 
-Detection Parameters:
-Fine-tune the parameters in the detectMultiScale method for better accuracy based on your environment.
+2. Detection Parameters:
+   - Fine-tune the parameters in the `detectMultiScale` method for better accuracy based on your environment.
 

@@ -38,6 +38,7 @@ The code uses **OpenCV** (Open Source Computer Vision Library) to detect eyes, a
 4. Press the `q` key to exit the program.
 
 
+
 ### How It Works?
 1. **Eye and Face Detection:**
    - Uses pre-trained Haar cascade models for detecting faces and eyes.
@@ -50,6 +51,7 @@ The code uses **OpenCV** (Open Source Computer Vision Library) to detect eyes, a
 
 4. **Visual Feedback:**
    - Displays messages and bounding boxes for easy monitoring.
+
 
 
 ### Customization

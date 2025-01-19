@@ -18,7 +18,7 @@ The code uses **OpenCV** (Open Source Computer Vision Library) to detect eyes, a
 **Ensure the following libraries are installed:**
 - **OpenCV (`cv2`):** For video processing and face/eye detection.
 
-  - Install via pip:** ```pip install opencv-python```
+  - **Install via pip:** ```pip install opencv-python```
 
 
 ### How to Use

@@ -19,15 +19,15 @@ This code implements a drowsiness detection system using OpenCV (Open Source Com
 
 # Explanation
 
->Imports: Necessary libraries are imported.
+* **Imports:** Necessary libraries are imported.
 
->sound_alarm function: Plays an alarm sound when eyes are closed.
+* `sound_alarm` **function:** Plays an alarm sound when eyes are closed.
 
->Cascade Classifiers: Pre-trained classifiers for eye and face detection are loaded.
+* **Cascade Classifiers:** Pre-trained classifiers for eye and face detection are loaded.
 
->Video Capture: Initializes the webcam for capturing video frames.
+* **Video Capture:** Initializes the webcam for capturing video frames.
 
-Main Loop:
+* Main Loop:
 Reads a frame from the camera.
 Converts the frame to grayscale for improved detection.
 Detects eyes and faces using the cascade classifiers.

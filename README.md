@@ -33,22 +33,22 @@ The code uses **OpenCV** (Open Source Computer Vision Library) to detect eyes, a
 4. Press the `q` key to exit the program.
 
 ### How It Works
-1. Eye and Face Detection:
+1. **Eye and Face Detection:**
    - Uses pre-trained Haar cascade models for detecting faces and eyes.
      
-2. Grayscale Conversion:
+2. **Grayscale Conversion:**
    - Converts video frames to grayscale for better detection accuracy.
 
-3. Drowsiness Detection:
+3. **Drowsiness Detection:**
    - If no eyes or faces are detected, the program assumes the driver is drowsy and triggers an alarm.
 
-4. Visual Feedback:
+4. **Visual Feedback:**
    - Displays messages and bounding boxes for easy monitoring.
 
 ### Customization
-1. Alarm Sound:
+1. **Alarm Sound:**
    - Modify the `sound_alarm` function to use a custom alarm or a different sound frequency/duration.
 
-2. Detection Parameters:
+2. **Detection Parameters:**
    - Fine-tune the parameters in the `detectMultiScale` method for better accuracy based on your environment.
 

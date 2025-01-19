@@ -1,23 +1,23 @@
 # Eyes-Detection
 # [Youtube Channel](https://www.youtube.com/channel/UCrT5u-1_J1ogG4l0TKhj21g) | [Linkedin](https://www.linkedin.com/in/noureddin-sameer-45760a236/)
-#Drowsiness Detection System
+# Drowsiness Detection System
 
 This system utilizes computer vision techniques to monitor the driver's state, specifically focusing on the detection of potential drowsiness or loss of consciousness. By analyzing real-time video feed from a camera, the system aims to identify instances where the driver may be at risk due to inattentiveness or unconsciousness.
 
 This code implements a drowsiness detection system using OpenCV (Open Source Computer Vision Library). It aims to enhance driver safety by detecting eye closures and triggering an alarm in such scenarios.
 
-#Installation
+# Installation
 
 Install OpenCV:
 If using pip: pip install opencv-python
 If using conda: conda install -c conda-forge opencv
 
-#Dependencies
+# Dependencies
 OpenCV (cv2)
 winsound (for alarm sound on Windows)
 Code Structure
 
-#Explanation
+# Explanation
 
 Imports: Necessary libraries are imported.
 sound_alarm function: Plays an alarm sound when eyes are closed.

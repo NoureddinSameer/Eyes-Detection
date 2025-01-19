@@ -15,12 +15,11 @@ The code uses **OpenCV** (Open Source Computer Vision Library) to detect eyes, a
 * **Python Version:** `Python 3.9.13` (recommended).
 
 ### Dependencies
-* Ensure the following libraries are installed:
+**Ensure the following libraries are installed:**
 
-**OpenCV (`cv2`):** For video processing and face/eye detection.
-Install via pip:
+* **OpenCV (`cv2`):** For video processing and face/eye detection.
 
-```pip install opencv-python```
+** **Install via pip:** ```pip install opencv-python```
 
 
 ### How to Use

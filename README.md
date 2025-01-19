@@ -12,7 +12,7 @@ The code uses **OpenCV** (Open Source Computer Vision Library) to detect eyes, a
 * **User-Friendly Output:** Displays visual feedback (messages and bounding boxes) on the video feed.
 
 ### Prerequisites
-**Python Version:** `Python 3.9.13` (recommended).
+* **Python Version:** `Python 3.9.13` (recommended).
 
 ### Dependencies
 Ensure the following libraries are installed:

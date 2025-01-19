@@ -16,7 +16,6 @@ This code implements a drowsiness detection system using OpenCV (Open Source Com
 * Python 3.9.13
 * OpenCV (cv2)
 * winsound (for alarm sound on Windows)
-* Code Structure
 
 # Explanation
 
@@ -46,9 +45,9 @@ Exits the loop on 'q' key press.
 Resource Release: Releases the video capture object and closes windows.
 Usage
 
-Save the code as a Python file (e.g., drowsiness_detection.py).
+Save the code as a Python file (e.g., Detection.py).
 
-Run the script from your terminal: python drowsiness_detection.py
+Run the script from your terminal: python Detection.py
 Customization
 
 Alarm Sound: Modify the sound_alarm function to play

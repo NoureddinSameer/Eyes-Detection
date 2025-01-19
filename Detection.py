@@ -1,8 +1,4 @@
-'''
 
-Noureddin Sameer Nazir Alzarie
-
-'''
 import cv2
 import winsound
 

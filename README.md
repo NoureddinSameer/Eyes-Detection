@@ -9,8 +9,8 @@ This code implements a drowsiness detection system using OpenCV (Open Source Com
 # Installation
 
 Install OpenCV:
-* Using pip: <sub>pip install opencv-python</sub>
-* Using conda: <sub>conda install -c conda-forge opencv</sub>
+* Using pip: `pip install opencv-python`
+* Using conda: `conda install -c conda-forge opencv`
 
 # Dependencies
 * OpenCV (cv2)

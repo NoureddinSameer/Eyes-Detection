@@ -10,9 +10,10 @@ This code implements a drowsiness detection system using OpenCV (Open Source Com
 
 **Install OpenCV:**
 * Using pip: `pip install opencv-python`
-* Using conda: `conda install -c conda-forge opencv`
+* Using Conda: `conda install -c conda-forge opencv`
 
 # Dependencies
+* Python 3.9.13
 * OpenCV (cv2)
 * winsound (for alarm sound on Windows)
 * Code Structure

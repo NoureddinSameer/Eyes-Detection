@@ -23,7 +23,7 @@ The code uses **OpenCV** (Open Source Computer Vision Library) to detect eyes, a
 
 ### How to Use
 
-Save the code as Detection.py.
+Save the code as `Detection.py` file
 
 Run the program using Python:
 

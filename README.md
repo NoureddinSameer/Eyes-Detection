@@ -1,37 +1,36 @@
 # Eyes Detection with OpenCV
 # [Youtube Channel](https://www.youtube.com/channel/UCrT5u-1_J1ogG4l0TKhj21g) | [Linkedin](https://www.linkedin.com/in/noureddin-sameer-45760a236/)
-# Drowsiness Detection program
+## Drowsiness Detection program
 
 This program utilizes computer vision techniques to monitor the driver's state, specifically focusing on detecting potential drowsiness or loss of consciousness. By analyzing a real-time video feed from a camera, the program identifies instances where the driver may be at risk due to inattentiveness or unconsciousness.
 
-The code uses **OpenCV** (Open Source Computer Vision Library) to detect eyes, and winsound for generating an alarm to wake the driver in case of potential drowsiness.
+The code uses **OpenCV** (Open Source Computer Vision Library) to detect eyes, and `winsound` for generating an alarm to wake the driver in case of potential drowsiness.
 
-## Features
-Real-Time Monitoring: Detects eye and face states using a webcam.
-Audio Alarm: Alerts the driver with a sound alarm when drowsiness is detected.
-User-Friendly Output: Displays visual feedback (messages and bounding boxes) on the video feed.
-Prerequisites
-Python Version: Python 3.9.13 (recommended).
-Dependencies
+### Features
+**Real-Time Monitoring:** Detects eye and face states using a webcam.
+**Audio Alarm:** Alerts the driver with a sound alarm when drowsiness is detected.
+**User-Friendly Output:** Displays visual feedback (messages and bounding boxes) on the video feed.
+
+### Prerequisites
+**Python Version:** Python 3.9.13 (recommended).
+
+### Dependencies
 Ensure the following libraries are installed:
 
-Python 3.9.13
-OpenCV (cv2): For video processing and face/eye detection.
+**OpenCV (`cv2`):** For video processing and face/eye detection.
 Install via pip:
 bash
-Copy
-Edit
-pip install opencv-python  
+`pip install opencv-python`  
 winsound: Built-in library for Windows systems, used for generating an alarm (no installation required).
-How to Use
+
+### How to Use
+
 Save the code as drowsiness_detection.py.
 
 Run the program using Python:
 
-bash
-Copy
-Edit
 python drowsiness_detection.py  
+
 The program will detect drowsiness in real-time:
 
 Displays "Eyes open" and "The Driver is Awake" if eyes are detected.

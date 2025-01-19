@@ -1,5 +1,4 @@
 import cv2
-
 import winsound
 
 def sound_alarm():

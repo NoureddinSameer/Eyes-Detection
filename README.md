@@ -19,16 +19,16 @@ The code uses **OpenCV** (Open Source Computer Vision Library) to detect eyes, a
 
 * **OpenCV (`cv2`):** For video processing and face/eye detection.
 
-** **Install via pip:** ```pip install opencv-python```
+* * Install via pip:** ```pip install opencv-python```
 
 
 ### How to Use
 
-Save the code as drowsiness_detection.py.
+Save the code as Detection.py.
 
 Run the program using Python:
 
-python drowsiness_detection.py  
+python Detection.py  
 
 The program will detect drowsiness in real-time:
 

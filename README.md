@@ -28,13 +28,13 @@ The code uses **OpenCV** (Open Source Computer Vision Library) to detect eyes, a
 
 3. The program will detect drowsiness in real-time:
 
- - Displays **Eyes open** and "The Driver is Awake" if eyes are detected.
+  - Displays **Eyes open** and "The Driver is Awake" if eyes are detected.
 
- - Displays **Eyes closed** and "The Driver is Sleeping" with an alarm if no eyes are detected.
+  - Displays **Eyes closed** and "The Driver is Sleeping" with an alarm if no eyes are detected.
 
 4. Press the `q` key to exit the program.
 
-###How It Works
+### How It Works
 Eyes Detection:
 
 Uses pre-trained Haar cascade models for detecting faces and eyes.

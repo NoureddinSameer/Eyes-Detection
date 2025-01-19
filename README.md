@@ -4,9 +4,9 @@
 
 This program utilizes computer vision techniques to monitor the driver's state, specifically focusing on detecting potential drowsiness or loss of consciousness. By analyzing a real-time video feed from a camera, the program identifies instances where the driver may be at risk due to inattentiveness or unconsciousness.
 
-The code uses OpenCV (Open Source Computer Vision Library) to detect eyes, and winsound for generating an alarm to wake the driver in case of potential drowsiness.
+The code uses **OpenCV** (Open Source Computer Vision Library) to detect eyes, and winsound for generating an alarm to wake the driver in case of potential drowsiness.
 
-Features
+## Features
 Real-Time Monitoring: Detects eye and face states using a webcam.
 Audio Alarm: Alerts the driver with a sound alarm when drowsiness is detected.
 User-Friendly Output: Displays visual feedback (messages and bounding boxes) on the video feed.

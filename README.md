@@ -6,13 +6,17 @@ This program utilizes computer vision techniques to monitor the driver's state, 
 
 The code uses **OpenCV** (Open Source Computer Vision Library) to detect eyes, and `winsound` to generate an alarm to wake the driver in case of potential drowsiness.
 
+
 ### Features
 * **Real-Time Monitoring:** Detects eye and face states using a webcam.
 * **Audio Alarm:** Alerts the driver with a sound alarm when drowsiness is detected.
 * **User-Friendly Output:** Displays visual feedback (messages and bounding boxes) on the video feed.
 
+
 ### Prerequisites
 * **Python Version:** `Python 3.9.13` (recommended).
+
+
 
 ### Dependencies
 **Ensure the following libraries are installed:**
@@ -21,7 +25,8 @@ The code uses **OpenCV** (Open Source Computer Vision Library) to detect eyes, a
   - **Install via pip:** ```pip install opencv-python```
 
 
-### How to Use
+
+### How to Use?
 1. Save the code as `Detection.py` file
 
 2. Run the program using `cmd`: `python Detection.py`
@@ -32,7 +37,8 @@ The code uses **OpenCV** (Open Source Computer Vision Library) to detect eyes, a
 
 4. Press the `q` key to exit the program.
 
-### How It Works
+
+### How It Works?
 1. **Eye and Face Detection:**
    - Uses pre-trained Haar cascade models for detecting faces and eyes.
      
@@ -44,6 +50,7 @@ The code uses **OpenCV** (Open Source Computer Vision Library) to detect eyes, a
 
 4. **Visual Feedback:**
    - Displays messages and bounding boxes for easy monitoring.
+
 
 ### Customization
 1. **Alarm Sound:**

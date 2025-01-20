@@ -7,19 +7,19 @@ This program utilizes computer vision techniques to monitor the driver's state, 
 
 The code uses **OpenCV** (Open Source Computer Vision Library) to detect eyes, and `winsound` to generate an alarm to wake the driver in case of potential drowsiness.
 
-</br></br></br>
+</br></br>
 
 ### Features
 * **Real-Time Monitoring:** Detects eye and face states using a webcam.
 * **Audio Alarm:** Alerts the driver with a sound alarm when drowsiness is detected.
 * **User-Friendly Output:** Displays visual feedback (messages and bounding boxes) on the video feed.
 
-</br></br></br>
+</br></br>
 
 ### Prerequisites
 * **Python Version:** `Python 3.9.13` (recommended).
 
-
+</br></br>
 
 ### Dependencies
 **Ensure the following libraries are installed:**
@@ -27,7 +27,7 @@ The code uses **OpenCV** (Open Source Computer Vision Library) to detect eyes, a
 
   - **Install via pip:** ```pip install opencv-python```
 
-
+</br></br>
 
 ### How to Use?
 
@@ -40,18 +40,13 @@ The code uses **OpenCV** (Open Source Computer Vision Library) to detect eyes, a
    - `git clone https://github.com/NoureddinSameer/Eyes-Detection-with-OpenCV.git`
 2. **Navigate to the cloned directory:** `cd <repository-folder>` 
 
-
-
-
-
+</br></br>
 
 **Run the program**
 * **Use the command prompt to execute the program:**`python Detection.py`**
 
 
-
-
-
+</br></br>
 
 **Program Functionality**
 
@@ -62,8 +57,7 @@ The code uses **OpenCV** (Open Source Computer Vision Library) to detect eyes, a
    - **If eyes are closed or not detected:**
      - Displays **Eyes closed** and **The Driver is Sleeping** and **activates an alarm**.
 
-
-
+</br></br>
 
 
 **Exit the Program**
@@ -71,6 +65,7 @@ The code uses **OpenCV** (Open Source Computer Vision Library) to detect eyes, a
 
 
 
+</br></br>
 
 ### How It Works?
 1. **Eye and Face Detection:**
@@ -85,6 +80,7 @@ The code uses **OpenCV** (Open Source Computer Vision Library) to detect eyes, a
 4. **Visual Feedback:**
    - Displays messages and bounding boxes for easy monitoring.
 
+</br></br>
 
 ### Customization
 1. **Alarm Sound:**

@@ -28,6 +28,7 @@ The code uses **OpenCV** (Open Source Computer Vision Library) to detect eyes, a
 
 
 ### How to Use?
+
 **Option 1: Run the Program Directly**
 1. Save the code as `Detection.py` file
 
@@ -38,16 +39,24 @@ The code uses **OpenCV** (Open Source Computer Vision Library) to detect eyes, a
 2. **Navigate to the cloned directory:** `cd <repository-folder>` 
 
 
+
+
 **Run the program**
 * **Use the command prompt to execute the program:**`python Detection.py`**
 
 
+
+
 **Program Functionality**
+
 * **The program will detect drowsiness in real-time:**
    - **If eyes are open and detected:**
      - Displays "Eyes open: The Driver is Awake.
+       
    - **If eyes are closed or not detected:**
      - Displays "Eyes closed: The Driver is Sleeping" and activates an alarm.
+
+
 
 **Exit the Program**
 * **Press the `q` key to stop the program.**

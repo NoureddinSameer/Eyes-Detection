@@ -41,8 +41,12 @@ The code uses **OpenCV** (Open Source Computer Vision Library) to detect eyes, a
 
 
 
+
+
 **Run the program**
 * **Use the command prompt to execute the program:**`python Detection.py`**
+
+
 
 
 
@@ -58,8 +62,12 @@ The code uses **OpenCV** (Open Source Computer Vision Library) to detect eyes, a
 
 
 
+
+
 **Exit the Program**
 * **Press the `q` key to stop the program.**
+
+
 
 
 ### How It Works?

@@ -28,6 +28,7 @@ The code uses **OpenCV** (Open Source Computer Vision Library) to detect eyes, a
 
 
 ### How to Use?
+**Option 1: Run the Program Directly**
 1. Save the code as `Detection.py` file
 
 2. Run the program using `cmd`: `python Detection.py`
@@ -38,6 +39,11 @@ The code uses **OpenCV** (Open Source Computer Vision Library) to detect eyes, a
 
 4. Press the `q` key to exit the program.
 
+**Option 2: Clone from Repository**
+1. **Clone the repository:**
+   - `git clone https://github.com/NoureddinSameer/Eyes-Detection-with-OpenCV.git`
+2. **Navigate to the cloned directory:** `cd <repository-folder>` 
+3. Run the program:`python Detection.py`
 
 
 ### How It Works?
@@ -52,7 +58,6 @@ The code uses **OpenCV** (Open Source Computer Vision Library) to detect eyes, a
 
 4. **Visual Feedback:**
    - Displays messages and bounding boxes for easy monitoring.
-
 
 
 ### Customization

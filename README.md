@@ -12,7 +12,7 @@ The code uses **OpenCV** (Open Source Computer Vision Library) to detect eyes, a
 * **Real-Time Monitoring:** Detects eye and face states using a webcam.
 * **Audio Alarm:** Alerts the driver with a sound alarm when drowsiness is detected.
 * **User-Friendly Output:** Displays visual feedback (messages and bounding boxes) on the video feed.
-
+</br></br></br></br></br></br></br></br>
 
 ### Prerequisites
 * **Python Version:** `Python 3.9.13` (recommended).

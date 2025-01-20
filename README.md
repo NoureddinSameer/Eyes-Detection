@@ -51,10 +51,10 @@ The code uses **OpenCV** (Open Source Computer Vision Library) to detect eyes, a
 
 * **The program will detect drowsiness in real-time:**
    - **If eyes are open and detected:**
-     - Displays "Eyes open: The Driver is Awake.
+     - Displays **Eyes open** and **The Driver is Awake**.
        
    - **If eyes are closed or not detected:**
-     - Displays "Eyes closed: The Driver is Sleeping" and activates an alarm.
+     - Displays **Eyes closed** and **The Driver is Sleeping** and **activates an alarm**.
 
 
 
